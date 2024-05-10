@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+}
+
+.navBar{
+  color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: end;
+
+}
+.navBar a {
+  padding: 15px;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+.navBar a:hover {
+  color: rgb(55, 205, 55);
+}
+.navBar ul{
+    list-style-type: none;
+}
+.navBar li {
+  float: left;
+  text-decoration: none;
+}
+.header-xxxl {
+  font-size: 3.5rem;
+  font-family: '
+  
+}
+.header-xxl{
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-xl{
+  font-size: 1rem;
+}
+.dot,
+span {
+  color: rgb(55, 205, 55);
+}
+.myImage {
+  width: 100%;
+}
+.myImageContainer {
+  width: 50%;
+}
+.introductionWrapper {
+  display: flex;
+}
+.introductionContainer {
+  padding: 20px;
+  width: 50%;
+  color: white;
+}
+.myCvBtn{
+  color: white;
+  background-color: black;
+  border-color: white;
+  font-size: 2rem;
+  display: flex;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.myCvBtn :hover{
+  color: rgb(55, 205, 55);
+}
+.abtMe{
+  color: white;
+  padding: 20px;
+  width: 50%;
+}
+.rcContainer{
+  display: flex;
+  flex-direction: row;
+  border-width: 2px;
+}
+.row{
+  display: flex;
+  padding: 5px 5px;
+ flex-direction: row;
+ 
+}
+.column{
+  display: flex;
+  padding: 5px 5px;
+  flex-direction: column;
+  
+}
