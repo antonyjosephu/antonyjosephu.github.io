@@ -40,7 +40,7 @@ body {
   font-size: 1rem;
 }
 .dot,
-span {
+.name{
   color: rgb(55, 205, 55);
 }
 .myImage {
@@ -92,4 +92,12 @@ a{
   padding: 5px 5px;
   flex-direction: column;
   
+}
+.bi-chevron-right{
+  color: rgb(55, 205, 55);
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.info{
+  color: white;
 }
