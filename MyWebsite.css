@@ -79,7 +79,7 @@ a {
 }
 .para {
   color: white;
-  text-align: center;
+ 
 }
 .rcContainer {
   display: flex;
@@ -138,4 +138,10 @@ a {
   border-color: rgb(55, 205, 55);
   border-spacing: 2px;
   cursor: pointer;
+}
+.form{
+  margin-top: 400px;
+}
+.credentials{
+  color:rgb(55, 205, 55);
 }
