@@ -120,19 +120,22 @@
       </a>
     </div>
         <div class="form">
-        <form>
-          <label class="credentials">Your Name:</label><br>
-          <input type="text">
-          <label class="credentials">E-mail ID:</label><br>
-          <input type="text">
-          <label class="credentials">Phone:</label><br>
-          <input type="number">
-          <label class="credentials">Message:</label><br>
-          <input type="text">
+        <form action="https://formspree.io/f/mzbnwkga" method="post">
+          
+          <h1 class="header-xxxl">Contact</h1>
+          <label class="credentials" id="name">Your Name:</label>
+          <input type="text" name="name" class="textBox"><br>
+          <label class="credentials" id="email">E-mail ID:</label>
+          <input type="text" name="email" class="textBox"><br>
+          <label class="credentials" id="phone">Phone:</label>
+          <input type="text" name="phone" class="textBox"><br>
+          <label class="credentials" id="message">Message:</label>
+          <input type="text" name="message" class="msgBox"><br>
+          <button type="submit" class="submit">Submit</button>
         </form>
       </div>
     
-      
+      <script src="MyWebsite.js"></script>
     
   </body>
 </html>

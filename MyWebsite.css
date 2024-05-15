@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  margin: 0;
 }
 
 .navBar {
@@ -30,6 +31,9 @@ body {
   font-size: 3.5rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
+}
+.dot{
+  color: rgb(55, 205, 55)
 }
 .header-xxl {
   font-size: 2rem;
@@ -104,7 +108,7 @@ a {
   padding: 5px;
 }
 .projects{
-  margin-top: 100px;
+  margin-top: 20%;
   margin-left: 30%;
   width: 30%;
 }
@@ -116,8 +120,8 @@ a {
   padding-bottom: 5px;
 }
 .imageContainer{
-  margin-top: 50px;
-   width: 100%; 
+  margin-top: 5%;
+  width: 50%;
   display: flex;
   margin-left: 15%;
   flex-direction: row;
@@ -127,21 +131,51 @@ a {
   margin-left: 15%;
   flex-direction: row;
   margin-top: 5px;
+  width: 50%;
 
 }
 .image{
   width: 250px; 
   padding: 10px 10px;
+  display: flex;
 }
-.image :hover{
+.image:hover{
   border-style: double;
   border-color: rgb(55, 205, 55);
   border-spacing: 2px;
   cursor: pointer;
 }
 .form{
-  margin-top: 400px;
+  margin-top: 30%;
+  padding: 3px 3px;
+  width: 50%;
+  display: flex;
 }
 .credentials{
-  color:rgb(55, 205, 55);
+  color:white;
+  padding: 5px 5px;
+  display: flex;
+  font-size: 2rem; 
 }
+.textBox{
+  width: 250px;
+  height: 30px;
+}
+.msgBox{
+  width: 250px;
+  height: 40%;
+}
+.submit{
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-color: white;
+  display: flex;
+}
+.submit:hover{
+  cursor: pointer;
+  color:rgb(55, 205, 55) ;
+}
+
