@@ -193,4 +193,11 @@ a {
     padding: 10px;
     width: 100%;
   }
-}
+  .rcContainer{
+    width: 100%;
+  }
+  .column{
+    width: 80%;
+  }
+  }
+  
