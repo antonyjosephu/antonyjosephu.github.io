@@ -141,10 +141,32 @@ a {
   border-spacing: 2px;
   cursor: pointer;
 }
+.wordpressprojects{
+  width: 100%;
+  
+  margin-top: 5%;
+  flex-direction: column;
+  display: flex;
+  padding-left: 30%;
+  width: 30%;
+}
+.wpimage{
+  width: 250px; 
+  display: flex;
+  margin-top: 5%;
+  padding: 10px 10px;
+ justify-content: center;
+}
+.wpimage:hover{
+  border-style: double;
+  border-color: rgb(55, 205, 55);
+  border-spacing: 2px;
+  cursor: pointer;
+}
 .form{
   width: 100%;
   display: flex;
-  justify-content: center;
+ margin-left: 30%;
 }
 .credentials{
   color:white;
@@ -199,5 +221,12 @@ a {
   .column{
     width: 80%;
   }
+  .wordpressprojects{
+    padding: 10px;
+    width: 100%;
   }
-  
+  .form{
+    margin-left: 10px;
+  }
+}
+ 
