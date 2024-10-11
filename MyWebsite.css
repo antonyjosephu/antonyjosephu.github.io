@@ -1,11 +1,10 @@
-html{
+body{
   scroll-behavior: smooth;
-}
-body {
+  width: 100%;
+  overflow-x: hidden;
   background-color: black;
   margin: 0;
 }
-
 .navBar {
   color: white;
   margin: 10px;
@@ -51,7 +50,7 @@ body {
   color: rgb(55, 205, 55);
 }
 .myImage {
-  width: 100%;
+  width: 90%;
 }
 .myImageContainer {
   width: 50%;
@@ -113,7 +112,7 @@ a {
 .projects{
   margin-top: 5%;
   padding-left: 30%;
-  width: 30%;
+  width: 40%;
 }
 .projectName{
   color: white;
@@ -140,33 +139,48 @@ a {
   border-color: rgb(55, 205, 55);
   border-spacing: 2px;
   cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.6s;
 }
-.wordpressprojects{
-  width: 100%;
-  
+.reactprojects{
   margin-top: 5%;
-  flex-direction: column;
-  display: flex;
   padding-left: 30%;
-  width: 30%;
+  width: 40%;
 }
-.wpimage{
-  width: 250px; 
+.reactprojectname{
+  color: white;
   display: flex;
-  margin-top: 5%;
-  padding: 10px 10px;
- justify-content: center;
+  justify-content: center;
+  font-weight: bolder;
+  padding-bottom: 5px;
 }
-.wpimage:hover{
+.reactimagecontainer{
+  width: 100%;
+  margin: 5% 0;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+.reactimage{
+  width: 250px;
+  padding: 10px 10px;
+  display: flex;
+}
+.reactimage:hover{
   border-style: double;
   border-color: rgb(55, 205, 55);
   border-spacing: 2px;
   cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.6s;
 }
 .form{
-  width: 100%;
+  width: 50%;
   display: flex;
  margin-left: 30%;
+ margin-bottom: 50px;
 }
 .credentials{
   color:white;
@@ -180,7 +194,7 @@ a {
 }
 .msgBox{
   width: 100%;
-  height: 20%;
+  height: 70px;
 }
 .submit{
   margin-top: 20px;
@@ -190,6 +204,7 @@ a {
   font-size: 15px;
   border-color: white;
   display: flex;
+  margin-bottom: 20px;
 }
 .submit:hover{
   cursor: pointer;
@@ -217,11 +232,17 @@ a {
   }
   .rcContainer{
     width: 100%;
+    padding: 10px;
+  }
+  .row{
+    width: 100%;
+    
   }
   .column{
-    width: 80%;
+    width: 100%;
+ 
   }
-  .wordpressprojects{
+  .reactjsprojects{
     padding: 10px;
     width: 100%;
   }
