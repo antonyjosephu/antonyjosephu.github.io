@@ -120,16 +120,7 @@ a {
 }
 
 /* Mobile Responsive */
-@media (max-width: 768px) {
-  .rcContainer {
-    flex-direction: column; /* Stacks columns vertically */
-    align-items: flex-start;
-  }
 
-  .column {
-    width: 100%; /* Makes each column full width */
-  }
-}
 
 .projects{
   margin-top: 5%;
