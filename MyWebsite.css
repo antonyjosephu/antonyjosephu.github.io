@@ -80,7 +80,7 @@ a {
 }
 .abtMecontainer {
   margin-top: 100px;
-  padding-left: 30%;
+  padding-left: 70px;
   width: 50%;
 }
 .para {
@@ -91,29 +91,49 @@ a {
 }
 .rcContainer {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  gap: 20px; /* Adds spacing between columns */
 }
+
+.column {
+  flex: 1; /* Allows both columns to take equal space */
+  min-width: 250px; /* Prevents items from shrinking too much */
+}
+
 .row {
-  padding: 5px ; 
-  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  flex-wrap: wrap; /* Ensures wrapping when needed */
 }
 
 .bi-chevron-right {
   color: rgb(55, 205, 55);
   font-size: 1rem;
 }
-.preInfo{
+
+.preInfo, .info {
   color: white;
   padding: 5px;
-  font-weight: bolder;
+  font-weight: bold;
 }
-.info {
-  color: white;
-  padding: 5px;
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .rcContainer {
+    flex-direction: column; /* Stacks columns vertically */
+    align-items: flex-start;
+  }
+
+  .column {
+    width: 100%; /* Makes each column full width */
+  }
 }
+
 .projects{
   margin-top: 5%;
-  padding-left: 30%;
+  padding-left: 70px;
   width: 40%;
   
 }
@@ -147,35 +167,42 @@ a {
 }
 .reactprojects {
   margin-top: 5%;
-  text-align: center; /* Center-align the heading */
-  width: 100%; /* Ensure full-width */
-  padding-left: 0; /* Remove unnecessary padding */
+  padding-left: 70px;
+  width: 40%;
+}
+
+.reactprojectname {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  padding-bottom: 5px;
 }
 
 .reactimagecontainer {
   width: 100%;
   margin: 5% 0;
   display: flex;
-  justify-content: center; /* Ensures the images stay centered */
-  gap: 20px; /* Adds spacing between images */
-}
-
-.reactimagecontainer div {
-  text-align: center; /* Center-align the image and its text */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .reactimage {
-  width: 250px;
-  padding: 10px;
+  width: 250px; 
+  padding: 10px 10px;
+  display: flex;
 }
 
-.reactprojectname {
-  color: white;
-  font-weight: bolder;
-  display: block;
-  text-align: center;
-  margin-top: 5px;
+.reactimage:hover {
+  border-style: double;
+  border-color: rgb(55, 205, 55);
+  border-spacing: 2px;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.6s;
 }
+
 
 /* Centering Form */
 .form-container {
