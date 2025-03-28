@@ -85,7 +85,9 @@ a {
 }
 .para {
   color: white;
- 
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
 }
 .rcContainer {
   display: flex;
@@ -113,6 +115,7 @@ a {
   margin-top: 5%;
   padding-left: 30%;
   width: 40%;
+  
 }
 .projectName{
   color: white;
