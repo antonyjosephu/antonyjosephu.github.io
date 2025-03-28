@@ -133,7 +133,7 @@ a {
 
 .projects{
   margin-top: 5%;
-  padding-left: 70px;
+  padding-left: 30%;
   width: 40%;
   
 }
@@ -167,7 +167,12 @@ a {
 }
 .reactprojects {
   margin-top: 5%;
-  padding-left: 70px;
+  padding-left: 30%;
+  width: 40%;
+}
+.reactjsprojects{
+  margin-top: 5%;
+  padding-left: 35%;
   width: 40%;
 }
 
