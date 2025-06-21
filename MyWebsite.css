@@ -286,7 +286,7 @@ a {
 .footer {
   background-color: #000;
   color: #fff;
-  padding: 40px 20px;
+  padding: 60px 100px;
   font-family: Arial, sans-serif;
 }
 
@@ -296,7 +296,7 @@ a {
   flex-wrap: wrap;
   max-width: 1200px;
   margin: auto;
-  gap: 30px;
+  gap: 50px;
 }
 
 .footer-column {
