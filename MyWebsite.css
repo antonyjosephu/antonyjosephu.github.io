@@ -358,6 +358,9 @@ a {
 
 /* Responsive Design */
 @media (max-width: 992px) {
+  .footer{
+    margin: auto;
+  }
   .footer-container {
     flex-direction: column;
     align-items: center;
