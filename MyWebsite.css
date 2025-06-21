@@ -286,7 +286,8 @@ a {
 .footer {
   background-color: #000;
   color: #fff;
-  padding: 60px 100px;
+  margin-left: 100px;
+  padding: 60px 20px;
   font-family: Arial, sans-serif;
 }
 
